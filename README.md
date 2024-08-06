@@ -27,7 +27,7 @@ Proyek ini bertujuan untuk menganalisis data penyewaan sepeda selama periode wak
 1. Ubah ke direktori proyek (Local):
 
     ```bash
-    cd proyek_analisis_data_dicoding/Dashboard/
+    cd .\Dashboard\
     streamlit run dashboard.py
     ```
 2. Buka browser dan akses http://localhost:8501 untuk melihat dashboard.
