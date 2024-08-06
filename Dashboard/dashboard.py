@@ -48,6 +48,9 @@ def calculate_monthly_counts(days_df):
 days_df = pd.read_csv("cleaned_day.csv")
 hours_df = pd.read_csv("cleaned_hour.csv")
 
+st.dataframe(days_df)
+st.dataframe(hours_df)
+
 datetime_columns = ["dteday"]
 days_df.sort_values(by="dteday", inplace=True)
 days_df.reset_index(inplace=True)   
